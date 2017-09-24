@@ -1,26 +1,36 @@
 
 .selectedStoryPreviewe{
-  border-style: solid;
-  background-color: powderblue;
-  width: 350px;
-  height: 450px;
+  border-style: groove;
+  width: 345px;
+  height: 430px;
   float:right;
   position: absolute;
-  left:970px;
+  left:935px;
   top: 170px;
 }
 .story{
-  border-style: solid;
-  background-color: powderblue;
-  width: 550px;
+  border-style: groove;
+  border-color: inherit;
+  width: 470px;
   height: 30px;
   display:inline-block;
 }
-.selectionOfStories{
-  display:inline-block;
+.border{
   border-style: solid;
-  background-color: red;
+  width: 1207px;
+  height: 610px;
   position: absolute;
-  left:970px;
-  top: 170px;
+  left:80px;
+  top: 15px;
+}
+.upper{
+  border-style: groove;
+  position: relative;
+  left:80px;
+  top: 5px;
+  width: 1227px;
+  height: 210px;
+}
+div:not(.selectionOfStories) {
+
 }
