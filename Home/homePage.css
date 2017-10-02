@@ -1,59 +1,106 @@
 
+.upper{
+  width: 90.8%;
+  height: 31.5%;
+  position: absolute;
+  left: 5.3%;
+  top: 2%;
+}
+.calendar{
+  border-style: groove;
+  width: 25%;
+  height : 85%;
+  position: absolute;
+  left : .5%;
+  top: 7%;
+}
+
+.userprofile{
+  border-style: groove;
+  width: 16%;
+  height : 11%;
+  position: absolute;
+  left : 83%;
+  top: 7% ;
+}
+.assetmenue{
+  border-style: groove;
+  width: 34%;
+  height : 11%;
+  position: absolute;
+  left : 65%;
+  top: 27%;
+}
+.ToolSetsIcons1{
+  width: 60%;
+  height : 11%;
+  position: absolute;
+  left : 54.3%;
+  top: 47%;
+}
+.ToolSetsIcons2{
+  width: 60%;
+  height : 11%;
+  position: absolute;
+  left : 54.3%;
+  top: 67%;
+}
+.ToolSetsIcons3{
+  width: 60%;
+  height : 11%;
+  position: absolute;
+  left : 54.3%;
+  top: 87%;
+}
+.ToolSetsIcons4{
+  width: 100%;
+  height : 11%;
+  position: absolute;
+  left : 1%;
+  top: 1%;
+}
+
 .selectedStoryPreviewe{
   border-style: groove;
   width: 345px;
   height: 430px;
   float:right;
   position: absolute;
-  left:935px;
-  top: 370px;
+  left:70%;
+  top: 25%;
 }
 .story{
+  position:absolute;
+  left: 1%;
+  top: 25%;
+  width:100%;
+  height: 15%;
+}
+.block{
+  border-color: #55FF00;
+  position:absolute;
+  left: 1%;
+  top: 35%;
+  width:100%;
+  height: 15%;
+}
+.label{
   border-style: groove;
   border-color: inherit;
-  width: 470px;
-  height: 30px;
+  width: 65%;
+  height: 35%;
   display:inline-block;
+}
+.button{
+
 }
 .border{
   border-style: solid;
-  width: 1207px;
-  height: 610px;
+  width: 90%;
+  height: 95%;
   position: absolute;
-  left:80px;
-  top: 235px;
-}
-.{
-  border-style: groove;
-  position: absolute;
-  left:70px;
-  top: 5px;
-  width: 1227px;
-  height: 210px;
-}
-.calendar{
-  border-style: groove;
-  width: 300px;
-  height : 170px;
-  position: absolute;
-  left : 80px;
-  top: 20px;
-}
-.userprofile{
-  border-style: groove;
-  width: 200px;
-  height : 23px;
-  position: absolute;
-  left : 1085px;
-  top: 20px;
-}
-.assetmenue{
-  border-style: groove;
-  width: 400px;
-  height : 23px;
-  position: absolute;
-  left : 885px;
-  top: 50px;
+  left:5.3%;
+  top: 40%;
 }
 
 div:not(.selectionOfStories) {
