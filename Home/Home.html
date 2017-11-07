@@ -1,8 +1,10 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <script src="Home.js"></script>
     <title>VM news </title>
-    <link rel="stylesheet" type="text/css" href="homePage.css">
+    <link rel="stylesheet" type="text/css" href="Home.css">
+
   </head>
   <body>
 
@@ -93,7 +95,7 @@
     <div class="border">
 
       <div class="ToolSetsIcons4">
-        <input  type="checkbox"onclick ="alert('It is not activated yet 😜')"/>
+        <input  type="checkbox" onclick="uncheckAll('test')"/>
         <input  type="button" value="      "/>
         <input  type="button" value="      "/>
         <input  type="button" value="      "/>
@@ -117,15 +119,15 @@
         <input  type="button" value="      "/>
         <input  type="button" value="      "/>
         <input  type="button" value="      "/>
-        <input  type="button" value="      "/>
         <input  type="button" value=" Insert "/>
-      </div>
-
-      <label class="selectedStoryPreviewe"> This preview of the selected story !  ><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br> Thank you!</br> </label >
-    <br></br>
+      </div >
+    <div class="selectedStoryPreviewe">
+      <label> This preview of the selected story !><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br> Thank you!</br> </label >
+      <br></br>
+    </div>
 
     <div class="story">
-      <input  type="checkbox" />
+      <input  type="checkbox"/>
       <label class="label"> Story 1 </label>
       <input  type="button" value=" 1 "style="height : 38%;position:absolute;left: 57.2%;top:1.5%"/>
       <input  type="button" value=" 2 "style="height : 38%;position:absolute;left: 59.7%;top:1.5%"/>
